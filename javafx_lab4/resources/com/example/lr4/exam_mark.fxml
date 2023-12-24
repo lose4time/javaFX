@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane prefHeight="334.0" prefWidth="292.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.lr4.ExamController">
+   <children>
+      <BorderPane prefHeight="334.0" prefWidth="297.0">
+         <center>
+            <TableView fx:id="exam_markTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="studCol" prefWidth="75.0" text="Студент" />
+                <TableColumn fx:id="subCol" prefWidth="75.0" text="Предмет" />
+                  <TableColumn fx:id="markCol" prefWidth="75.0" text="Оценка" />
+                  <TableColumn fx:id="dateCol" prefWidth="75.0" text="Дата" />
+              </columns>
+            </TableView>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

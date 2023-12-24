@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane prefHeight="331.0" prefWidth="219.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.lr4.SubjLectController">
+   <children>
+      <BorderPane prefHeight="331.0" prefWidth="226.0">
+         <center>
+            <TableView fx:id="subj_lectTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="lectorCol" prefWidth="120.00000303983688" text="Лектор" />
+                <TableColumn fx:id="subjCol" prefWidth="105.5999755859375" text="Предмет" />
+              </columns>
+            </TableView>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

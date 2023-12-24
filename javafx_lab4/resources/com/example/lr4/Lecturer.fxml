@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane prefHeight="288.0" prefWidth="383.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.lr4.LecturerController">
+   <children>
+      <BorderPane prefHeight="288.0" prefWidth="383.0">
+         <center>
+            <TableView fx:id="lecturerTable" prefHeight="288.0" prefWidth="329.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="surnameCol" prefWidth="75.0" text="Фамилия" />
+                <TableColumn fx:id="nameCol" prefWidth="95.20001220703125" text="Имя" />
+                  <TableColumn fx:id="cityCol" prefWidth="88.79998779296875" text="Город" />
+                  <TableColumn fx:id="univerCol" prefWidth="123.20001220703125" text="Университет" />
+              </columns>
+            </TableView>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

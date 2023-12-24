@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane prefHeight="386.0" prefWidth="434.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.lr4.UniversityController">
+   <children>
+      <BorderPane layoutX="-2.0" prefHeight="386.0" prefWidth="434.0">
+         <center>
+            <TableView fx:id="universityTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="nameCol" prefWidth="191.20000910758972" text="Название" />
+                <TableColumn fx:id="ratingCol" prefWidth="82.40003967285156" text="Рейтинг" />
+                  <TableColumn fx:id="cityCol" prefWidth="161.5999755859375" text="Город" />
+              </columns>
+            </TableView>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

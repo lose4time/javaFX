@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane prefHeight="366.0" prefWidth="312.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.lr4.SubjectController">
+   <children>
+      <BorderPane prefHeight="366.0" prefWidth="312.0">
+         <center>
+            <TableView fx:id="subjectTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="nameCol" prefWidth="145.60003662109375" text="Название" />
+                <TableColumn fx:id="hoursCol" prefWidth="66.39996337890625" text="Часы" />
+                  <TableColumn fx:id="semCol" prefWidth="99.20001220703125" text="Семестр" />
+              </columns>
+            </TableView>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
